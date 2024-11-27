@@ -18,8 +18,8 @@ class SignInScreenState extends State<SignInScreen> {
   final TextEditingController _controller1 = TextEditingController();
   final TextEditingController _controller2 = TextEditingController();
   late bool _PassworIsVisible = false;
-  final RegExp emailRegExp =
-      RegExp(r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$');
+  // final RegExp emailRegExp =
+  //     RegExp(r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$');
   @override
   Widget build(BuildContext context) {
     double screenWidth = MediaQuery.of(context).size.width;
